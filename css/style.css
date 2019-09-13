@@ -1,0 +1,1014 @@
+html {
+  box-sizing: border-box;
+  -ms-overflow-style: scrollbar;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.head{
+  height: 670px;
+  width: 100%;
+  background: #279c8d;
+  background: -webkit-linear-gradient(to bottom, #0d8676, #6392af);
+  background: linear-gradient(to bottom, #0d8676, #6392af);
+}
+
+
+.navbar{
+}
+.navbar img{
+  margin-left: 5.5%;
+  margin-top: 15px;
+  height: 50px;
+}
+
+ul{
+  margin-top: 30px;
+  float: right;
+  margin-right: 100px;
+  color: #9a9595;
+  list-style: none;
+}
+
+li{
+  float: left;
+  margin-left: 50px;
+}
+
+li a{
+  color: #d3cccc;
+  text-decoration: none;
+  position: relative;
+}
+li a:hover{
+  color: #fff;
+}
+
+li a:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  bottom: 0;
+  left: 0;
+  background-color: #0afddb;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+li a:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1.2);
+}
+
+
+
+.neusant{
+  position: absolute;
+  top: 32%;
+  left: 6%;
+  color: #fff;
+}
+
+.neusant .neu{
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 35px;
+}
+
+.neusant .jud{
+  width: 450px;
+  float: left;
+  line-height: 20px;
+}
+
+.neusant .hel{
+  font-family: 'Rajdhani', sans-serif;
+}
+
+.neusant p{
+  margin-top: 5%;
+  line-height: 30px;
+  font-family: 'Nunito', sans-serif;
+}
+
+button{
+  margin-top: 10px;
+  background: #fff;
+  height:40px;
+  width: 150px;
+  border-radius: 30px;
+  border: none;
+}
+
+button p{
+  color: #0d8676;
+}
+
+.figure{
+  pointer-events: none;
+
+}
+.figure img{
+  margin-top: -32%;
+  float: right;
+  width: 65%;
+}
+
+/* Who */
+
+.who{
+  overflow-x: hidden;
+  height: 750px;
+  width: 100%;
+  background: #279c8d;
+  background: -webkit-linear-gradient(to bottom, #6392af, #72ab9b);
+  background: linear-gradient(to bottom, #6392af, #72ab9b);
+}
+
+.who h1 {
+  font-family: 'Maven Pro', sans-serif;
+  color: #fff;
+  text-decoration: none;
+}
+
+hr.style-two {
+    border: 0;
+    height: 3px;
+    width: 250px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(80, 239, 231, 0.75), rgba(0, 0, 0, 0));
+}
+
+
+p.pilih{
+  position: relative;
+  z-index: 2;
+  margin-left: 25%;
+  margin-top: 30px;
+  color: #fff;
+  width: 50%;
+  line-height: 20px;
+  font-family: 'Nunito', sans-serif;
+}
+
+.circle{
+  position: relative;
+  z-index: 1;
+  margin-top: -100px;
+  left: 30%;
+  height: 520px;
+  width: 550px;
+  border-radius: 50%;
+  background: #8A2387;
+  background: -webkit-linear-gradient(to top, #ce96c9, #da6f7e, #e2a5d5);
+  background: linear-gradient(to top, #ce96c9, #da6f7e, #e2a5d5);
+}
+
+.circle1{
+  margin-left: 67%;
+  margin-top: 55px;
+  height: 210px;
+  width: 210px;
+  background: lightblue;
+  border-radius: 50%;
+  background: #8A2387;
+  background: -webkit-linear-gradient(to top, #67bdb9, #b440bb, #6c16a2);
+  background: linear-gradient(to top, #67bdb9, #b440bb, #6c16a2);
+}
+
+.circle2{
+  margin-left: 77%;
+  margin-top: 25px;
+  height: 195px;
+  width: 195px;
+  background: lightblue;
+  border-radius: 50%;
+  background: #8A2387;
+  background: -webkit-linear-gradient(to top, #c7cc76, #d48e38, #d48611);
+  background: linear-gradient(to top, #c7cc76, #d48e38, #d48611);
+}
+
+.circle3{
+  margin-left: 45%;
+  margin-top: -250px;
+  height: 170px;
+  width: 170px;
+  background: lightblue;
+  border-radius: 50%;
+  background: #8A2387;
+  background: -webkit-linear-gradient(to top, #9fe4e1, #3faab5, #16a2a2);
+  background: linear-gradient(to top, #9fe4e1, #3faab5, #16a2a2);
+}
+
+.circle1 h3{
+  FONT-WEIGHT: 100;
+  color: #fff;
+  margin-top: 55px;
+  font-size:14px;
+}
+
+.circle2 h3{
+  FONT-WEIGHT: 100;
+  color: #fff;
+  margin-top: 55px;
+  font-size:14px;
+}
+
+.circle3 h3{
+  FONT-WEIGHT: 100;
+  color: #fff;
+  margin-top: 40px;
+  font-size:14px;
+}
+
+.circle h1{
+  margin-top: -10px;
+  FONT-WEIGHT: 100;
+  font-size: 40px;
+}
+
+/* bla */
+.bla{
+  width: 100%;
+  height: 500px;
+  background: #fff;
+}
+
+/* Team */
+.tim{
+  background-size: cover;
+  background-image: url('../img/clo.jpg');
+  height: 670px;
+  width: 100%;
+}
+
+.tim h1 {
+  font-family: 'Maven Pro', sans-serif;
+  color: #fff;
+  text-decoration: none;
+}
+
+hr.style-team {
+    border: 0;
+    height: 3px;
+    width: 250px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(212, 232, 232, 0.75), rgba(0, 0, 0, 0));
+}
+
+.team{
+  width: 93%;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.team:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.kolom {
+  position: relative;
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+.card {
+  cursor: pointer;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  height: 200px;
+  text-align: left;
+  margin-top: 30px;
+  border-radius: 10px;
+}
+
+#card:hover{
+  opacity: 0.7 ;
+}
+
+
+h1.jobs{
+  position: absolute;
+  top: 25%;
+  left: 10%;
+  width: 100px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: normal;
+  line-height: 35px;
+  font-size: 35px;
+  color: #fff;
+}
+
+p.jname{
+  color: #fff;
+  position: absolute;
+  top: 77%;
+  font-weight: normal;
+  font-size: 14px;
+  left: 10%;
+}
+
+
+/* Modal PopUp */
+
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.5); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  border-radius: 5px;
+  background-color: #fefefe;
+  height: 40%;
+  padding: 5px;
+  width: 55%;
+  position: fixed;
+  left: 23%;
+  top: 25%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 20px;
+  font-weight: bold;
+  position: relative;
+  top: 3%;
+  right: 2%;
+}
+
+h1.modaltitle{
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 22px;
+  position: relative;
+  left: 2%;
+  top: 2%;
+  color: #463b3b;
+}
+
+.modaldesk{
+  position: relative;
+  left: 2%;
+  font-weight: normal;
+  font-size: 12px;
+  color: #a59494;
+}
+
+.vertical{
+  height: 170px;
+  position: absolute;
+  left: 40%;
+  top: 18%;
+  width: 1px;
+  border: 1px;
+  background: #d4cbcb;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+
+
+@media (max-width: 767.98px) {
+  body{
+    overflow-x: hidden;
+  }
+
+  .head{
+    height: 700px;
+    width: 100%;
+    background: #279c8d;
+    background: -webkit-linear-gradient(to bottom, #0d8676, #6392af);
+    background: linear-gradient(to bottom, #0d8676, #6392af);
+  }
+
+  ul{
+    float: right;
+    margin-top: 30px;
+    margin-right: 100px;
+    color: #9a9595;
+    list-style: none;
+    display: none;
+  }
+
+  li{
+    float: left;
+    margin-left: 70px;
+  }
+
+  li a{
+    color: #d3cccc;
+    text-decoration: none;
+    position: relative;
+  }
+  li a:hover{
+    color: #fff;
+  }
+
+  li a:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    bottom: 0;
+    left: 0;
+    background-color: #0afddb;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+  }
+
+  li a:hover:before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1.2);
+  }
+
+
+
+  .neusant{
+    position: absolute;
+    top: 32%;
+    left: 6%;
+    color: #fff;
+  }
+
+  .neusant .neu{
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 35px;
+  }
+
+  .neusant .jud{
+    margin-top: 40%;
+    width: 450px;
+    float: left;
+    line-height: 20px;
+  }
+
+  .neusant .hel{
+    font-family: 'Rajdhani', sans-serif;
+  }
+
+  .neusant p{
+    margin-top: 5%;
+    line-height: 30px;
+    font-family: 'Nunito', sans-serif;
+  }
+
+  button{
+    margin-top: 10px;
+    background: #fff;
+    height:40px;
+    width: 150px;
+    border-radius: 30px;
+    border: none;
+  }
+
+  button a{
+    text-decoration: none;
+    color: #0d8676;
+  }
+
+  .figure{
+    pointer-events: none;
+    float: left;
+    margin-left: -50px;
+    margin-top: -100%;
+  }
+  .figure img{
+    width: 500px;
+  }
+
+
+  /* Who */
+
+  .who{
+    height: 750px;
+    width: 100%;
+    background: lightblue;
+    background: #279c8d;
+    background: -webkit-linear-gradient(to bottom, #6392af, #72ab9b);
+    background: linear-gradient(to bottom, #6392af, #72ab9b);
+  }
+
+  .who h1 {
+    font-family: 'Maven Pro', sans-serif;
+    color: #fff;
+    text-decoration: none;
+  }
+
+  hr.style-two {
+      border: 0;
+      height: 3px;
+      width: 250px;
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(80, 239, 231, 0.75), rgba(0, 0, 0, 0));
+  }
+
+
+  p.pilih{
+    position: relative;
+    z-index: 2;
+    color: #fff;
+    width: 65%;
+    right: 6%;
+    line-height: 20px;
+    font-family: 'Nunito', sans-serif;
+  }
+
+  .circle{
+    position: relative;
+    z-index: 1;
+    top: 5%;
+    left: 20%;
+    height: 440px;
+    width: 470px;
+    border-radius: 50%;
+    background: #8A2387;
+    background: -webkit-linear-gradient(to top, #ce96c9, #da6f7e, #e2a5d5);
+    background: linear-gradient(to top, #ce96c9, #da6f7e, #e2a5d5);
+  }
+
+  .circle1{
+    position: relative;
+    top: -5%;
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    background: #8A2387;
+    background: -webkit-linear-gradient(to top, #67bdb9, #b440bb, #6c16a2);
+    background: linear-gradient(to top, #67bdb9, #b440bb, #6c16a2);
+  }
+
+  .circle2{
+    position: relative;
+    top: -10%;
+    height: 165px;
+    width: 165px;
+    border-radius: 50%;
+    background: #8A2387;
+    background: -webkit-linear-gradient(to top, #c7cc76, #d48e38, #d48611);
+    background: linear-gradient(to top, #c7cc76, #d48e38, #d48611);
+  }
+
+  .circle3{
+    position: relative;
+    top: 2%;
+    left: 3%;
+    height: 135px;
+    width: 135px;
+    background: lightblue;
+    border-radius: 50%;
+    background: #8A2387;
+    background: -webkit-linear-gradient(to top, #9fe4e1, #3faab5, #16a2a2);
+    background: linear-gradient(to top, #9fe4e1, #3faab5, #16a2a2);
+  }
+
+  .circle1 h3{
+    FONT-WEIGHT: 100;
+    color: #fff;
+    margin-top: 25px;
+    font-size: 10px;
+  }
+
+  .circle2 h3{
+    FONT-WEIGHT: 100;
+    color: #fff;
+    margin-top: 15px;
+    font-size: 10px;
+  }
+
+  .circle3 h3{
+    FONT-WEIGHT: 100;
+    color: #fff;
+    margin-top: 15px;
+    font-size:10px;
+  }
+
+  .circle h1{
+    margin-top: -10px;
+    FONT-WEIGHT: 100;
+    font-size: 30px;
+  }
+
+  /* Team */
+  .tim{
+    background-size: 100% 100%;
+    background-image: url('../img/air.jpg');
+    height: auto;
+    width: 100%;
+  }
+
+  .tim h1 {
+    font-family: 'Maven Pro', sans-serif;
+    color: #fff;
+    text-decoration: none;
+  }
+
+  hr.style-two {
+      border: 0;
+      height: 3px;
+      width: 250px;
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(212, 232, 232, 0.75), rgba(0, 0, 0, 0));
+  }
+
+  .team{
+    width: 80%;
+    margin: auto;
+    height: auto;
+    margin-top: 40px;
+
+  }
+
+  .team:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    height: 250px;
+    text-align: left;
+    background-color: #f1f1f1;
+  }
+
+  .kolom {
+    width: 50%;
+    display: block;
+    margin-bottom: 50px;
+    margin-left: 0px;
+  }
+
+  h1.jobs{
+    position: absolute;
+    top: 20%;
+    width: 200px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: normal;
+    line-height: 55px;
+    font-size: 50px;
+    color: #fff;
+  }
+
+  p.jname{
+    color: #fff;
+    position: absolute;
+    top: 77%;
+    font-weight: normal;
+    font-size: 14px;
+    left: 10%;
+  }
+
+  p.jjobs{
+    color: #fff;
+    position: absolute;
+    top: 83%;
+    font-weight: normal;
+    font-size: 11px;
+    left: 10%;
+  }
+
+
+}
+
+
+@media (max-width: 575.98px) {
+
+    body{
+      overflow-x: hidden;
+    }
+
+  .head{
+    height: 700px;
+    width: 100%;
+    background: #279c8d;
+    background: -webkit-linear-gradient(to bottom, #0d8676, #6392af);
+    background: linear-gradient(to bottom, #0d8676, #6392af);
+  }
+
+  ul{
+    float: right;
+    margin-top: 30px;
+    margin-right: 100px;
+    color: #9a9595;
+    list-style: none;
+    display: none;
+  }
+
+  li{
+    float: left;
+    margin-left: 70px;
+  }
+
+  li a{
+    color: #d3cccc;
+    text-decoration: none;
+    position: relative;
+  }
+  li a:hover{
+    color: #fff;
+  }
+
+  li a:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    bottom: 0;
+    left: 0;
+    background-color: #0afddb;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+  }
+
+  li a:hover:before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1.2);
+  }
+
+
+
+  .neusant{
+    position: absolute;
+    top: 32%;
+    left: 6%;
+    color: #fff;
+  }
+
+  .neusant .neu{
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 35px;
+  }
+
+  .neusant .jud{
+    margin-top: 40%;
+    width: 450px;
+    float: left;
+    line-height: 20px;
+  }
+
+  .neusant .hel{
+    font-family: 'Rajdhani', sans-serif;
+  }
+
+  .neusant p{
+    margin-top: 5%;
+    line-height: 30px;
+    font-family: 'Nunito', sans-serif;
+  }
+
+  button{
+    margin-top: 10px;
+    background: #fff;
+    height:40px;
+    width: 150px;
+    border-radius: 30px;
+    border: none;
+  }
+
+  button a{
+    text-decoration: none;
+    color: #0d8676;
+  }
+
+  .figure{
+    pointer-events: none;
+    float: left;
+    margin-left: -50px;
+    margin-top: -100%;
+  }
+  .figure img{
+    width: 500px;
+  }
+
+
+  /* Who */
+
+  .who{
+    height: 680px;
+    width: 100%;
+    background: #279c8d;
+    background: -webkit-linear-gradient(to bottom, #6392af, #72ab9b);
+    background: linear-gradient(to bottom, #6392af, #72ab9b);
+  }
+
+  .who h1 {
+    font-family: 'Maven Pro', sans-serif;
+    color: #fff;
+    text-decoration: none;
+  }
+
+  hr.style-two {
+      border: 0;
+      height: 3px;
+      width: 250px;
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(80, 239, 231, 0.75), rgba(0, 0, 0, 0));
+  }
+
+
+  p.pilih{
+    position: relative;
+    z-index: 2;
+    color: #fff;
+    width: 65%;
+    right: 6%;
+    line-height: 20px;
+    font-family: 'Nunito', sans-serif;
+  }
+
+  .circle{
+    position: relative;
+    z-index: 1;
+    top: 5%;
+    left: 15%;
+    height: 320px;
+    width: 350px;
+    border-radius: 50%;
+    background: #8A2387;
+    background: -webkit-linear-gradient(to top, #ce96c9, #da6f7e, #e2a5d5);
+    background: linear-gradient(to top, #ce96c9, #da6f7e, #e2a5d5);
+  }
+
+  .circle1{
+    position: relative;
+    top: -10%;
+    left: 10%;
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    background: #8A2387;
+    background: -webkit-linear-gradient(to top, #67bdb9, #b440bb, #6c16a2);
+    background: linear-gradient(to top, #67bdb9, #b440bb, #6c16a2);
+  }
+
+  .circle2{
+    position: relative;
+    top: -15%;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    background: #8A2387;
+    background: -webkit-linear-gradient(to top, #c7cc76, #d48e38, #d48611);
+    background: linear-gradient(to top, #c7cc76, #d48e38, #d48611);
+  }
+
+  .circle3{
+    position: relative;
+    top: 10%;
+    left: 3%;
+    height: 105px;
+    width: 105px;
+    border-radius: 50%;
+    background: #8A2387;
+    background: -webkit-linear-gradient(to top, #9fe4e1, #3faab5, #16a2a2);
+    background: linear-gradient(to top, #9fe4e1, #3faab5, #16a2a2);
+  }
+
+  .circle1 h3{
+    FONT-WEIGHT: 100;
+    color: #fff;
+    margin-top: 25px;
+    font-size: 10px;
+  }
+
+  .circle2 h3{
+    FONT-WEIGHT: 100;
+    color: #fff;
+    margin-top: 15px;
+    font-size: 10px;
+  }
+
+  .circle3 h3{
+    FONT-WEIGHT: 100;
+    color: #fff;
+    margin-top: 15px;
+    font-size:10px;
+  }
+
+  .circle h1{
+    margin-top: -10px;
+    FONT-WEIGHT: 100;
+    font-size: 30px;
+  }
+
+  /* Team */
+  .tim{
+    background-size: 100% 100%;
+    background-image: url('../img/air.jpg');
+    height: auto;
+    width: 100%;
+  }
+
+  .tim h1 {
+    font-family: 'Maven Pro', sans-serif;
+    color: #fff;
+    text-decoration: none;
+  }
+
+  hr.style-two {
+      border: 0;
+      height: 3px;
+      width: 250px;
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(212, 232, 232, 0.75), rgba(0, 0, 0, 0));
+  }
+
+
+  .team{
+    width: 80%;
+    margin: auto;
+    height: auto;
+    margin-top: 40px;
+
+  }
+
+  .team:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    height: 350px;
+    text-align: left;
+    background-color: #f1f1f1;
+  }
+  .kolom {
+    width: 100%;
+    display: block;
+    margin-bottom: 50px;
+    margin-left: 0px;
+  }
+
+  h1.jobs{
+    position: absolute;
+    top: 25%;
+    width: 200px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: normal;
+    line-height: 55px;
+    font-size: 50px;
+    color: #fff;
+  }
+
+  p.jname{
+    color: #fff;
+    position: absolute;
+    top: 77%;
+    font-weight: normal;
+    font-size: 14px;
+    left: 10%;
+  }
+
+  p.jjobs{
+    color: #fff;
+    position: absolute;
+    top: 83%;
+    font-weight: normal;
+    font-size: 11px;
+    left: 10%;
+  }
+
+
+ }

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style media="screen">
+      .badan{
+        background:#e9eaea;
+        height:500px;
+        width: 100%;
+        box-shadow: 2px 2px 3px 0px #80808038;
+      }
+      .card{
+          width: 20rem;
+          margin-top: 80px;
+          margin-left: auto;
+          margin-right: auto;
+          background: linear-gradient(180deg, #05135a8a, #055e9c96);
+          box-shadow: 2px 2px 2px #bfbaba;
+          border-radius: 10px;
+      }
+
+
+      .qr{
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+      .qrcode{
+        width:100%;
+        height:250px;
+        margin-left: auto;
+        margin-top: 20px;
+        border-radius: 10px;
+      }
+      hr{
+        margin-top: 20px;
+        width: 90%;
+        border-top: 1px;
+      }
+      .pqr{
+        color: #353333;
+        text-align:center;
+      }
+
+      .kelas{
+        color: #f7f6f6;
+        text-align: center;
+        padding-bottom: 20px;
+        margin-top: -5px;
+      }
+
+      .nama{
+        color: #f7f6f6;
+        text-align: center;
+        font-size: 22px;
+      }
+
+      .generate{
+        color: #353333;
+      }
+
+      .logo{
+        width: 50px;
+        height: 50px;
+        float: right;
+        margin-bottom: 20px;
+      }
+
+
+    </style>
+
+  </head>
+  <body>
+
+
+    <div class="badan">
+      <div class="container">&nbsp;
+        <div class="card">
+          <div class="card0">
+              <div class="qr">
+                <img class="qrcode" src="http://chart.apis.google.com/chart?cht=qr&chs=200x200&chl={{$no_identitas}}~{{$nama}}">
+                <!-- Generated on : {{date("d/m/Y | h:i:sa")}} -->
+              </div>
+              <div>
+                  <hr>
+              </div>
+          <div class="card-body">
+                  <h1 class="nama"><strong> fransihombing </strong></h1>
+                  <p class="kelas"> Kelas </p>
+                  <!-- <p class="generate"> Generated on : </p> -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </body>
+</html>
