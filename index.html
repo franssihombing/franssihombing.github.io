@@ -1,270 +1,250 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Neusant Nusantara</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="shortcut icon" href="img/n.png">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Franssihombing | Portofolio</title>
+    <script src="parallax.js"></script>
+    <link rel="stylesheet" href="index-style.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu:700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Maven+Pro|Nunito|Rajdhani&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Chewy|Comfortaa&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <main>
+        <div class="container">
+
+            <ul id="scene">
+                <li class="layer" data-depth="2">
+                    <img src="images/cams.png" class="langit"  alt="image">
+                </li>
+
+                <li class="layer bulan" data-depth="0.15">
+                    <img class="bln" src="images/bulan.png" alt="image">
+                </li>
+
+                <li class="layer background" data-depth="0">
+                    <img src="images/campingbg.png" alt="image">
+                </li>
+
+                <!-- <li class="layer" data-depth="-0.05"><img src="images/unicorntext.png" alt="image"></li>></li> -->
 
 
-  </head>
-  <body>
+                <li class="layer profile" data-depth="0.03">
+                    <img class="image" src="images/gua.gif" alt="image">
+                </li>
+                
+                <li class="layer" data-depth="0.09">
+                    <img src="" alt="image">
+                </li>
+            </ul>
 
-<!-- Head -->
-    <div class="head">
-        <div class="navbar">
-          <img src="img/n.png">
-          <ul>
-            <li><a href="#" style="color:#fff;">Home</a></li>
-            <li><a href="#">Work</a></li>
-            <li><a href="#">Skill</a></li>
-            <li onclick="experience()" ><a>Experience</a></li>
-          </ul>
+        <div class="desk"></div>
+          <h1 class="frans">Frans <strong>Sihombing</strong></h1>
+            <h1 class="f">Frans Sihombing</h1>
+            <p class="job1">Graphic Designer</p>
+            <p class="job2">Web Development & Designer</p>
+            <p class="job3">UI/UX Web & App</p>
+            <p class="job4">Sabar belum tau mau apa lagi</p>
+            <p class="job5">Sabar masih bingung</p>
         </div>
 
-      <img src="img/n.png" style="display:none;">
 
-      <div class="neusant">
-        <div class="jud">
-          <h1 class="hel">Hello! I'm </h1>
-          <h1 class="neu">Fransiscus Sihombing </h1>
-          <p>We are Neusant Nusantara, we are the best team,
-             we always been drawn design and development.
-             We enjoy each aspect, each project , and love building sites
-             & mobile apps from start to finish, for client all over the world.</p>
-            <button> <p> SILLY MAN </p> </button>
+
+            <script>
+                var scene = document.getElementById('scene');
+                var parallax = new Parallax(scene);
+            </script>
         </div>
 
-        <div class="figure">
-            <img src="img/wow.png">
+        
+            
+    </main>
+
+    <div class="coba">
+
+        <div class="cm">
+            <div class="koloms">
+                <div class="card" id="card" style="background: linear-gradient(-30deg, #3f2492 0%, #237ac3);">
+                  <h1 class="jobs" > Web Developer  </h1>
+                  <p class="jname" >Fransicus Sihombing</p>
+                </div>
+        
+              <!-- The Modal -->
+              <div id="modal0" class="modal">
+        
+                <!-- Modal content -->
+                <div class="modal-content">
+                  <span class="close">&times;</span>
+                  <h1 class="modaltitle" > CMS </h1>
+                  <p class="modaldesk" > Perpustakaan</p>
+                  <hr class="vertical">
+                </div>
+        
+              </div>
+              </div>
+    
+              <div class="koloms">
+                  <div class="card" id="card" style="background: linear-gradient(218.23deg, #237ac3 0%, #3f2492 );">
+                      <h1 class="jobs" > Graphic Design </h1>
+                      <p class="jname">Fransicus Sihombing</p>
+                  </div>
+        
+                <!-- The Modal -->
+                <div id="modal1" class="modal">
+        
+                  <!-- Modal content -->
+                  <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <h1 class="modaltitle" > Vector Design </h1>
+                    <p class="modaldesk" > Vector Art Face</p>
+                    <hr class="vertical">
+                  </div>
+        
+                </div>
+                </div>
+    
+                
+                <div class="koloms">
+                    <div class="card" id="card" style="background: linear-gradient(-30deg, #3f2492 0%, #237ac3);">
+                        <h1 class="jobs" > UI/UX Design </h1>
+                      <p class="jname" >Fransicus Sihombing</p>
+                    </div>
+          
+                    <!-- The Modal -->
+                    <div id="modal2" class="modal">
+          
+                      <!-- Modal content -->
+                      <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <h1 class="modaltitle" > UI/UX </h1>
+                        <p class="modaldesk" > Perpustakaan</p>
+                        <hr class="vertical">
+                      </div>
+          
+                    </div>
+                  </div>
+          
+    
+                  <div class="koloms">
+                      <div class="card" id="card" style="background: linear-gradient(218deg, #237ac3 0%, #3f2492 );">
+                          <h1 class="jobs" > Apps Developer  </h1>
+                        <p class="jname" >Fransicus Sihombing</p>
+                      </div>
+            
+                      <!-- The Modal -->
+                      <div id="modal3" class="modal">
+            
+                        <!-- Modal content -->
+                        <div class="modal-content">
+                          <span class="close">&times;</span>
+                          <h1 class="modaltitle" > Apps </h1>
+                          <p class="modaldesk" > Perpustakaan</p>
+                          <hr class="vertical">
+                        </div>
+            
+                      </div>
+                    </div>
+    
+                    <div class="koloms">
+                      <div class="card" id="card" style="background: linear-gradient(30deg, #b16bb9 0%, #b90f36 98.75%);">
+                        <h1 class="jobs" > Web Developer  </h1>
+                        <p class="jname" >Fransicus Sihombing</p>
+                      </div>
+              
+                    <!-- The Modal -->
+                    <div id="modal4" class="modal">
+              
+                      <!-- Modal content -->
+                      <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <h1 class="modaltitle" > CMS </h1>
+                        <p class="modaldesk" > Perpustakaan</p>
+                        <hr class="vertical">
+                      </div>
+              
+                    </div>
+              
+                    </div>
+              
+                    <div class="koloms">
+                        <div class="card" id="card" style="background: linear-gradient(-25deg, #237ac3 0%, #3f2492 );">
+                            <h1 class="jobs" > Graphic Design </h1>
+                            <p class="jname">Fransicus Sihombing</p>
+                        </div>
+              
+                      <!-- The Modal -->
+                      <div id="modal5" class="modal">
+              
+                        <!-- Modal content -->
+                        <div class="modal-content">
+                          <span class="close">&times;</span>
+                          <h1 class="modaltitle" > Vector Design </h1>
+                          <p class="modaldesk" > Vector Art Face</p>
+                          <hr class="vertical">
+                        </div>
+              
+                      </div>
+              
+                      </div>
+              
+                      
+                      <div class="koloms">
+                          <div class="card" id="card" style="background: linear-gradient(25deg, #237ac3 0%, #3f2492 );">
+                              <h1 class="jobs" > UI/UX Design </h1>
+                            <p class="jname" >Fransicus Sihombing</p>
+                          </div>
+                
+                          <!-- The Modal -->
+                          <div id="modal6" class="modal">
+                
+                            <!-- Modal content -->
+                            <div class="modal-content">
+                              <span class="close">&times;</span>
+                              <h1 class="modaltitle" > UI/UX </h1>
+                              <p class="modaldesk" > Perpustakaan</p>
+                              <hr class="vertical">
+                            </div>
+                
+                          </div>
+              
+                        </div>
+                
+              
+                        <div class="koloms">
+                            <div class="card" id="card" style="background: linear-gradient(-30deg, #b16bb9 0%, #b90f36 98.75%);">
+                                  <h1 class="jobs" > Apps Developer  </h1>
+                              <p class="jname" >Fransicus Sihombing</p>
+                            </div>
+                  
+                            <!-- The Modal -->
+                            <div id="modal7" class="modal">
+                  
+                              <!-- Modal content -->
+                              <div class="modal-content">
+                                <span class="close">&times;</span>
+                                <h1 class="modaltitle" > Apps </h1>
+                                <p class="modaldesk" > Perpustakaan</p>
+                                <hr class="vertical">
+                              </div>
+                  
+                            </div>
+                          </div>
+    
+         
         </div>
-      </div>
+    
+        </div>
+       
     </div>
 
-<!-- Who We -->
-  <div class="who" id="experience">&nbsp;
-    <h1 align="center">What i can</h1>
-    <hr class="style-two">
-
-      <p class="pilih" align="center" >Why choose Neusant? because Neusant sets a new standard of freelance service
-         in the world with 24-hour support supported by the friendly, kind, and dedicated
-         "Neusant Team". Neusant also promised not to make you disappointed because you
-         chose us and we will give the best for you.</p>
-
-    <div class="circle">&nbsp;
-
-      <div class="circle1">&nbsp;
-        <h3 align="center" > Graphic Design </h3>
-        <h1 align="center"> 80% </h1>
-      </div>
-
-      <div class="circle2">&nbsp;
-        <h3 align="center" > Web/Apps Development </h3>
-        <h1 align="center"> 85% </h1>
-      </div>
-
-      <div class="circle3">&nbsp;
-        <h3 align="center" > UI/UX Web & App </h3>
-        <h1 align="center"> 90% </h1>
-      </div>
-
-    </div>
-
-  </div>
-
-<!-- contact -->
-<div class="bla">
-
-</div>
-
-<!-- Recent Work-->
-
-  <div class="tim">&nbsp;
-    <h1 align="center">Recent Work</h1>
-    <hr class="style-team">
-
-      <div class="team">
-
-        <div class="kolom">
-          <div class="card" id="card" style="background: linear-gradient(218.23deg, #E03290 0%, #EEAD4B 98.75%);">
-              <h1 class="jobs" > Graphic Design </h1>
-              <p class="jname">Fransicus Sihombing</p>
-          </div>
-
-        <!-- The Modal -->
-        <div id="modal0" class="modal">
-
-          <!-- Modal content -->
-          <div class="modal-content">
-            <span class="close">&times;</span>
-            <h1 class="modaltitle" > Vector Design </h1>
-            <p class="modaldesk" > Vector Art Face</p>
-            <hr class="vertical">
-          </div>
-
-        </div>
-
-        </div>
-
-        <div class="kolom">
-          <div class="card" id="card" style="background: linear-gradient(218.23deg, #2770DE 0%, #20FFFF 98.75%);">
-            <h1 class="jobs" > Web Developer  </h1>
-            <p class="jname" >Fransicus Sihombing</p>
-          </div>
-
-        <!-- The Modal -->
-        <div id="modal1" class="modal">
-
-          <!-- Modal content -->
-          <div class="modal-content">
-            <span class="close">&times;</span>
-            <h1 class="modaltitle" > CMS </h1>
-            <p class="modaldesk" > Perpustakaan</p>
-            <hr class="vertical">
-          </div>
-
-        </div>
-
-        </div>
+    <script type="text/javascript" src="js/js.js"></script>
 
 
-
-        <div class="kolom">
-          <div class="card" id="card" style="background: linear-gradient(218.23deg, #5E15D6 0%, #EB62EE 98.75%);">
-            <h1 class="jobs" > UI/UX Design </h1>
-            <p class="jname" >Fransicus Sihombing</p>
-          </div>
-
-          <!-- The Modal -->
-          <div id="modal2" class="modal">
-
-            <!-- Modal content -->
-            <div class="modal-content">
-              <span class="close">&times;</span>
-              <h1 class="modaltitle" > UI/UX </h1>
-              <p class="modaldesk" > Perpustakaan</p>
-              <hr class="vertical">
-            </div>
-
-          </div>
-
-        </div>
-
-        <div class="kolom">
-          <div class="card" id="card" style="background: linear-gradient(218.23deg, #0c9e7c 0%, #efe899 98.75%);">
-            <h1 class="jobs" > Packaging Design </h1>
-            <p class="jname" >Fransicus Sihombing</p>
-          </div>
-
-          <!-- The Modal -->
-          <div id="modal3" class="modal">
-
-            <!-- Modal content -->
-            <div class="modal-content">
-              <span class="close">&times;</span>
-              <h1 class="modaltitle" > Packaging </h1>
-              <p class="modaldesk" > Perpustakaan</p>
-              <hr class="vertical">
-            </div>
-
-          </div>
-
-        </div>
-
-        <div class="kolom">
-          <div class="card" id="card" style="background: linear-gradient(218.23deg, #d194e0 0%, #b90f36 98.75%);">
-            <h1 class="jobs" > Apps Developer  </h1>
-            <p class="jname" >Fransicus Sihombing</p>
-          </div>
-
-          <!-- The Modal -->
-          <div id="modal4" class="modal">
-
-            <!-- Modal content -->
-            <div class="modal-content">
-              <span class="close">&times;</span>
-              <h1 class="modaltitle" > Apps </h1>
-              <p class="modaldesk" > Perpustakaan</p>
-              <hr class="vertical">
-            </div>
-
-          </div>
-        </div>
-
-        <div class="kolom">
-          <div class="card" id="card" style="background: linear-gradient(218.23deg, #d6bb89 0%, #0a7479 98.75%);">
-            <h1 class="jobs" > Lead Generation </h1>
-            <p class="jname" >Fransicus Sihombing</p>
-          </div>
-
-          <!-- The Modal -->
-          <div id="modal5" class="modal">
-
-            <!-- Modal content -->
-            <div class="modal-content">
-              <span class="close">&times;</span>
-              <h1 class="modaltitle" > Lead </h1>
-              <p class="modaldesk" > Perpustakaan</p>
-              <hr class="vertical">
-            </div>
-
-          </div>
-
-        </div>
-
-        <div class="kolom">
-          <div class="card" id="card" style="background: linear-gradient(218.23deg, #fdd271 0%, #b73c0d 98.75%);">
-              <h1 class="jobs" > Vector Design </h1>
-              <p class="jname">Fransicus Sihombing</p>
-          </div>
-
-          <!-- The Modal -->
-          <div id="modal6" class="modal">
-
-            <!-- Modal content -->
-            <div class="modal-content">
-              <span class="close">&times;</span>
-              <h1 class="modaltitle" > Vector </h1>
-              <p class="modaldesk" > Perpustakaan</p>
-              <hr class="vertical">
-            </div>
-
-          </div>
-
-        </div>
-
-
-        <div class="kolom">
-          <div class="card" id="card" style="background: linear-gradient(218.23deg, #84eef3 0%, #0f55ab 98.75%);">
-              <h1 class="jobs" > Marketing Strategy </h1>
-              <p class="jname">Fransicus Sihombing</p>
-          </div>
-
-          <!-- The Modal -->
-        <div id="modal7" class="modal">
-
-          <!-- Modal content -->
-          <div class="modal-content">
-            <span class="close">&times;</span>
-            <h1 class="modaltitle" > Marketing Stategy </h1>
-            <p class="modaldesk" >Menentukan peluang pemula</p>
-            <hr class="vertical">
-          </div>
-
-        </div>
-
-        </div>
-
-      </div>
-
-  </div>
-
-
-
-  <script type="text/javascript" src="js/js.js">   </script>
-
-  </body>
+</body>
 </html>
