@@ -1,0 +1,131 @@
+.koloms {
+    position: relative;
+    float: left;
+    width: 22%;
+    padding: 0 10px;
+  }
+  
+.cm{
+    position: relative;
+    top:20%;
+    left:3%;
+  }
+  
+  
+  
+  /* bla */
+  
+  
+  
+  .card {
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    height: 150px;
+    text-align: left;
+    margin-top: 30px;
+    border-radius: 10px;
+  }
+  
+  #card:hover{
+    opacity: 0.7 ;
+  }
+  
+  
+  h1.jobs{
+    position: absolute;
+    top: 33%;
+    left: 10%;
+    width: 100px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: normal;
+    line-height: 35px;
+    font-size: 30px;
+    color: #d8cacaf5;
+  }
+  
+  p.jname{
+    color: #d8cacaf5;
+    position: absolute;
+    top: 80%;
+    font-weight: normal;
+    font-size: 13px;
+    left: 10%;
+  }
+  
+  
+  /* Modal PopUp */
+  
+  
+  /* The Modal (background) */
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.5); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    border-radius: 5px;
+    background-color: #fefefe;
+    height: 50%;
+    padding: 5px;
+    width: 60%;
+    position: fixed;
+    left: 23%;
+    top: 25%;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    top: 2%;
+    right: 2%;
+  }
+  
+  h1.modaltitle{
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 22px;
+    position: relative;
+    left: 2%;
+    top: 5%;
+    color: #463b3b;
+  }
+  
+  .modaldesk{
+    position: relative;
+    top: 6%;
+    left: 2%;
+    font-weight: normal;
+    font-size: 12px;
+    color: #a59494;
+  }
+  
+  .vertical{
+    height: 240px;
+    position: absolute;
+    left: 40%;
+    top: 13%;
+    width: 1px;
+    border: 1px;
+    background: #d4cbcb;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }

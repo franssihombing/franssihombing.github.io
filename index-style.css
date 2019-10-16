@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.container{
+    background: url(images/.png);
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background-size: 100% 100%; 
+}
+
+.background{
+    top:0%;
+    
+}
+
+
+.bulan{
+    top: 74%;
+    left: 43%;
+}
+
+.bln{
+    height:30px;
+}
+
+.background img{
+    width:1370px; 
+    height:700px;
+
+}
+
+.langit{
+    width:2500px; 
+    height:800px; 
+    margin-top: -190px; 
+    margin-left: -400px;
+}
+
+.frans{
+    color : #fff;
+    font-size: 20px;
+    font-weight: 100;
+    position: absolute;
+    font-family: 'Comfortaa', cursive;
+    top: 3%;
+    left: 3%;
+  }
+  
+
+.f{
+    color :#ffffff;
+    font-size: 20px;
+    font-weight: 100;
+    font-family: 'Comfortaa', cursive;
+    position: absolute;
+    top: 40%;
+    transform: translateX(-50%) translateY(-50%);
+    left: 50%;
+  }
+
+.job1{
+    color :#ffffff;
+    font-size: 15px;
+    font-weight: 100;
+    font-family: 'Comfortaa', cursive;
+    position: absolute;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    left: 50%;
+  }
+  
+  
+  .job2{
+    color : #dcdcdcf5;
+    font-size: 15px;
+    font-weight: 100;
+    font-family: 'Comfortaa', cursive;
+    position: absolute;
+    top: 53%;
+    transform: translateX(-50%) translateY(-50%);
+    left: 50%;
+  }
+  
+  .job3{
+    color :#ffffff;
+    font-size: 15px;
+    font-weight: 100;
+    font-family: 'Comfortaa', cursive;
+    position: absolute;
+    top: 56%;
+    transform: translateX(-50%) translateY(-50%);
+    left: 50%;
+  }
+  
+  .job4{
+    color :#dcdcdcf5;
+    font-size: 15px;
+    font-weight: 100;
+    font-family: 'Comfortaa', cursive;
+    position: absolute;
+    top: 59%;
+    transform: translateX(-50%) translateY(-50%);
+    left: 50%;
+  }
+  
+  .job5{
+    color :#ffffff;
+    font-size: 15px;
+    font-weight: 100;
+    font-family: 'Comfortaa', cursive;
+    position: absolute;
+    top: 62%;
+    transform: translateX(-50%) translateY(-50%);
+    left: 50%;
+  }
+
+.coba{
+    width:100%;
+    height:700px;
+    background: #151c30;
+    overflow-x: hidden;
+}
+
+
+.profile{
+    top:10%;
+    transform: translateX(-50%) translateY(-50%);
+    left: 43.2%;
+}
+
+.image{
+    border-radius: 50%; 
+    height:170px; 
+    width:170px;
+    position: absolute;
+    box-shadow: 4px 4px 5px 1px #615b5b33;
+}
+
+
+.header{
+    display: flex;
+    height: 10vh;
+    align-items: flex-end;
+}
+
+.logo{
+    flex: 2;
+}
+
+.logo img{
+    height: 40px;
+    margin-left: 40px;
+}
+
+.navlist{
+    flex: 1;
+    display: flex;
+}
+
+.navlist a{
+    margin: 0 30px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #fff;
+}
+
+a:hover{
+    border-bottom: 1px solid #fff;
+}
