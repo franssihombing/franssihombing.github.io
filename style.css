@@ -20,56 +20,6 @@
     left:3%;
   }
   
-  
-  
-  @media (min-width: 0px) and (max-width: 600px)  {
-
-    .desk{
-      top: 42%;
-    }
-
-    .bulan{
-      left: 40%;
-    }
-
-    .background img{
-      width:100%; 
-      height:700px;
-    }
-    .koloms {
-      width: 90%;
-    }
-
-    .coba{
-      height : auto;
-      padding-bottom: 100px;
-      padding-top: 100px;
-    }
-    
-  }
-
-  @media (min-width: 601px) and (max-width: 1124px) {
-    .background img{
-      width:150%;
-      height:700px;
-    }
-
-    .koloms {
-      width: 45%;
-    }
-
-    .coba{
-      height : auto;
-      padding-bottom: 100px;
-      padding-top: 100px;
-    }
-  }
-  
-  
-  /* bla */
-  
-  
-  
   .card {
     cursor: pointer;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -182,3 +132,88 @@
     text-decoration: none;
     cursor: pointer;
   }
+  
+  @media (min-width: 0px) and (max-width: 600px)  {
+    .vertical{
+      height: 1px;
+      left: 5%;
+      top: 45%;
+      width: 90%;
+    }
+
+    .modal-content {
+      border-radius: 5px;
+      background-color: #fefefe;
+      height: 50%;
+      padding: 5px;
+      width: 90%;
+      position: fixed;
+      left: 4.2%;
+      top: 25%;
+    }
+    
+
+    .desk{
+      top: 42%;
+    }
+
+    .bulan{
+      left: 40%;
+    }
+
+    .background img{
+      width:100%; 
+      height:700px;
+    }
+    .koloms {
+      width: 90%;
+    }
+
+    .coba{
+      height : auto;
+      padding-bottom: 100px;
+      padding-top: 100px;
+    }
+    
+  }
+
+  @media (min-width: 601px) and (max-width: 1124px) {
+    .vertical{
+      height: 240px;
+      position: absolute;
+      left: 40%;
+      top: 13%;
+      width: 1px;
+      border: 1px;
+      background: #d4cbcb;
+    }
+
+    .modal-content {
+      border-radius: 5px;
+      background-color: #fefefe;
+      height: 50%;
+      padding: 5px;
+      width: 80%;
+      position: fixed;
+      left: 10%;
+      top: 25%;
+    }
+
+    .background img{
+      width:150%;
+      height:700px;
+    }
+
+    .koloms {
+      width: 45%;
+    }
+
+    .coba{
+      height : auto;
+      padding-bottom: 100px;
+      padding-top: 100px;
+    }
+  }
+  
+  
+  
