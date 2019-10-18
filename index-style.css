@@ -86,7 +86,7 @@
 }
 
 .desk{
-    top: 55%;
+    top: 40%;
     left: 50%;
     text-align: center;
     transform: translateX(-50%) translateY(-50%);
@@ -99,7 +99,6 @@
     border-radius: 50%; 
     height:170px; 
     width:170px;
-    position: absolute;
     box-shadow: 4px 4px 5px 1px #615b5b33;
 }
 
