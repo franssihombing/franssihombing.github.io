@@ -4,8 +4,8 @@
       "id": 1,
       "no": 1,
       "name": "kursi",
-      "birth_date": "75000",
-      "Position": "",
+      "birth_date": "",
+      "Position": "75000",
       "International": "Spain",
       "Team": "Manchester United",
       "Poster": "http://football-player.rf.gd/football/degea.png?i=1"
@@ -14,8 +14,8 @@
       "id": 2,
       "no": 2,
       "name": "Meja",
-      "birth_date": "95000",
-      "Position": "",
+      "birth_date": "",
+      "Position": "95000",
       "International": "Sweden",
       "Team": "Manchester United",
       "Poster": "http://football-player.rf.gd/football/viktor.png"
@@ -24,8 +24,8 @@
       "id": 3,
       "no": 3,
       "name": "Lampu",
-      "birth_date": "23000",
-      "Position": "",
+      "birth_date": "",
+      "Position": "23000",
       "International": "Ivory Coast",
       "Team": "Manchester United",
       "Poster": "http://football-player.rf.gd/football/erik.png"
@@ -34,8 +34,8 @@
       "id": 4,
       "no": 4,
       "name": "Pulpen",
-      "birth_date": "3500",
-      "Position": "",
+      "birth_date": "",
+      "Position": "3500",
       "International": "England",
       "Team": "Manchester United",
       "Poster": "http://football-player.rf.gd/football/phil.png"
@@ -54,8 +54,8 @@
       "id": 6,
       "no": 6,
       "name": "CAT",
-      "birth_date": "45000",
-      "Position": "",
+      "birth_date": "",
+      "Position": "45000",
       "International": "France",
       "Team": "Manchester United",
       "Poster": "http://football-player.rf.gd/football/pogba.png"
@@ -64,8 +64,8 @@
       "id": 7,
       "no": 7,
       "name": "Tempat sampah",
-      "birth_date": "32000",
-      "Position": "",
+      "birth_date": "",
+      "Position": "32000",
       "International": "Chile",
       "Team": "Manchester United",
       "Poster": "http://football-player.rf.gd/football/alexis.png"
@@ -74,8 +74,8 @@
       "id": 8,
       "no": 8,
       "name": "Plastik",
-      "birth_date": "2500",
-      "Position": "",
+      "birth_date": "",
+      "Position": "2500",
       "International": "Spain",
       "Team": "Manchester United",
       "Poster": "http://football-player.rf.gd/football/mata.png"
@@ -84,8 +84,8 @@
       "id": 9,
       "no": 9,
       "name": "Tang",
-      "birth_date": "15000,
-      "Position": "",
+      "birth_date": "",
+      "Position": "15000",
       "International": "Belgium",
       "Team": "Manchester United",
       "Poster": "http://football-player.rf.gd/football/lukaku.png"
@@ -94,51 +94,11 @@
       "id": 10,
       "no": 11,
       "name": "Buku",
-      "birth_date": "10000",
-      "Position": "",
+      "birth_date": "",
+      "Position": "10000",
       "International": "France",
       "Team": "Manchester United",
       "Poster": "http://football-player.rf.gd/football/martial.png"
     },
-    {
-      "id": 11,
-      "no": 12,
-      "name": "Sepatu",
-      "birth_date": "47000",
-      "Position": "",
-      "International": "England",
-      "Team": "Manchester United",
-      "Poster": "http://football-player.rf.gd/football/smaling.png"
-    },
-    {
-      "id": 12,
-      "no": 14,
-      "name": "Sendal",
-      "birth_date": "20000",
-      "Position": "",
-      "International": "England",
-      "Team": "Manchester United",
-      "Poster": "http://football-player.rf.gd/football/lingard.png"
-    },
-    {
-      "id": 13,
-      "no": 40,
-      "name": "Semen",
-      "birth_date": "34000",
-      "Position": "",
-      "International": "Portugal",
-      "Team": "Manchester United",
-      "Poster": "http://football-player.rf.gd/football/joel.png"
-    },
-    {
-      "id": 14,
-      "no": 19,
-      "name": "Bohlam",
-      "birth_date": "14000",
-      "Position": "",
-      "International": "England",
-      "Team": "Manchester United",
-      "Poster": "http://football-player.rf.gd/football/marcus.png"
-    }
   ]
 }
